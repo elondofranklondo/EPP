@@ -1,0 +1,10 @@
+##RULEFILE##
+Define Fname,Mname,Lname; BRKAKRJKAJF
+Define(../words4rule.txt) Words;
+Always(0) http://www.;
+Always(0) sdfef;
+Always(0) wwwwwww.;
+Always(df) http://www.;
+Always(-2) sdfef;
+Always(-1) wwwwwww.;
+Template Fname + Mname + Lname + .com;
