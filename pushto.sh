@@ -11,7 +11,7 @@ git add "$(*.cpp|*.h)"
 git commit -a -m "$message"
 /usr/bin/expect << EOF
 set timeout 5
-spawn git push origin master
+spawn git push master
 expect "Username for 'https://github.com': "
 send -- "elondofranklondo\r"	
 expect "Password for 'https://elondofranklondo@github.com': "
